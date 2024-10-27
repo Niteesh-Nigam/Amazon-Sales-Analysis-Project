@@ -14,9 +14,10 @@ The aim of this project is to extract key insights from Amazon sales data, ident
 2. Data Collection and Preprocessing
 3. Exploratory Data Analysis (EDA)
 4. Clustering Analysis (K-Means)
-5. Visualization Results
-6. Metrics Overview
-7. Conclusion and Future Scope
+5. Sales Prediction (Linear Regression)
+6. Visualization Results
+7. Metrics Overview
+8. Conclusion and Future Scope
 
 ## Introduction
 
@@ -66,11 +67,27 @@ To further understand customer behavior, a K-Means clustering algorithm was appl
 
 The clustering results provide valuable insights into different customer segments, which can be used for targeted marketing strategies.
 
+### Customer Segmentation
+
+To better understand our customers, we perform customer segmentation using clustering techniques like K-Means. This analysis helps identify different types of customers based on their purchasing behaviors.
+
 ### Visualization of Clusters
 
 ![K-Means Clustering Placeholder](./images/k_means_clustering_placeholder.png)
 
-K-Means clustering results here. This visualization helps identify different customer groups based on their purchasing behavior.
+depicting K-Means clustering results here. This visualization helps identify different customer groups based on their purchasing behavior.
+
+## Sales Prediction (Linear Regression)
+
+### Sales Prediction
+
+Using a simple linear regression model, we predict future sales trends based on available features. This helps in forecasting and making data-driven decisions.
+
+### Visualization of Sales Prediction
+
+![Sales Prediction Placeholder](./images/sales_prediction_placeholder.png)
+
+depicting the results of the sales prediction model here. This visualization provides insights into future sales trends.
 
 ## Visualization Results
 
@@ -80,25 +97,25 @@ Below are the key visualizations from the analysis:
 
 ![Sales Trends Placeholder](./images/sales_trends_placeholder.png)
 
-sales trends over time. This visualization helps identify seasonal sales peaks and troughs.
+depicting sales trends over time here. This visualization helps identify seasonal sales peaks and troughs.
 
 ### Top-Selling Products
 
 ![Top Products Placeholder](./images/top_products_placeholder.png)
 
-top products by sales volume. This visualization provides insights into customer preferences and popular items.
+showing the top products by sales volume. This visualization provides insights into customer preferences and popular items.
 
 ### Customer Segmentation
 
 ![Customer Segmentation Placeholder](./images/customer_segmentation_placeholder.png)
 
-customer segmentation chart, highlighting the different types of customers and their purchasing behaviors.
+*Description*: Include the customer segmentation chart here, highlighting the different types of customers and their purchasing behaviors.
 
 ### Key Metrics Overview
 
 ![Metrics Overview Placeholder](./images/metrics_overview_placeholder.png)
 
-metrics summary image, providing key performance indicators such as average sales, number of customers, and most purchased categories.
+*Description*: Include the metrics summary image, providing key performance indicators such as average sales, number of customers, and most purchased categories.
 
 ## Metrics Overview
 
@@ -124,10 +141,11 @@ The analysis uncovered several critical insights:
 - **Customer Behavior**: Identification of customer groups that are more likely to purchase during promotional periods.
 - **Seasonal Trends**: Seasonal spikes in sales, which could be aligned with holidays or major promotional campaigns.
 - **Customer Segments**: K-Means clustering identified distinct customer segments that can be targeted for personalized marketing.
+- **Sales Forecasting**: Linear regression was used to predict future sales trends, providing valuable insights for inventory management and marketing.
 
 ## Conclusion & Future Scope
 
-The Amazon Sales Analysis project provides valuable insights into customer preferences, popular product categories, geographic distribution, and customer segmentation. This information can be leveraged by the business to make informed decisions, optimize inventory, and enhance customer satisfaction. Future work could involve predictive modeling for future sales forecasting, more granular customer behavior analysis, and tailored marketing campaigns based on customer segments.
+The Amazon Sales Analysis project provides valuable insights into customer preferences, popular product categories, geographic distribution, customer segmentation, and sales forecasting. This information can be leveraged by the business to make informed decisions, optimize inventory, and enhance customer satisfaction. Future work could involve more advanced predictive modeling for future sales forecasting, more granular customer behavior analysis, and tailored marketing campaigns based on customer segments.
 
 ## Images
 
