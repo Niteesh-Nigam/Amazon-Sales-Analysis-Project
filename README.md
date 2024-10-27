@@ -107,5 +107,5 @@ All images extracted from the notebook are placeholders here; you need to replac
 
 ## Contact
 
-For further questions, please feel free to reach out at [Your Email].
+For further questions, please feel free to reach out at niteesh.nigam99@gmail.com.
 
