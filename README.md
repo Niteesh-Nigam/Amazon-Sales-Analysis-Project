@@ -70,7 +70,7 @@ The clustering results provide valuable insights into different customer segment
 
 ![K-Means Clustering Placeholder](./images/k_means_clustering_placeholder.png)
 
-*Description*: Include the image depicting K-Means clustering results here. This visualization helps identify different customer groups based on their purchasing behavior.
+K-Means clustering results here. This visualization helps identify different customer groups based on their purchasing behavior.
 
 ## Visualization Results
 
@@ -80,25 +80,25 @@ Below are the key visualizations from the analysis:
 
 ![Sales Trends Placeholder](./images/sales_trends_placeholder.png)
 
-*Description*: Include the image depicting sales trends over time here. This visualization helps identify seasonal sales peaks and troughs.
+sales trends over time. This visualization helps identify seasonal sales peaks and troughs.
 
 ### Top-Selling Products
 
 ![Top Products Placeholder](./images/top_products_placeholder.png)
 
-*Description*: Include the image showing the top products by sales volume. This visualization provides insights into customer preferences and popular items.
+top products by sales volume. This visualization provides insights into customer preferences and popular items.
 
 ### Customer Segmentation
 
 ![Customer Segmentation Placeholder](./images/customer_segmentation_placeholder.png)
 
-*Description*: Include the customer segmentation chart here, highlighting the different types of customers and their purchasing behaviors.
+customer segmentation chart, highlighting the different types of customers and their purchasing behaviors.
 
 ### Key Metrics Overview
 
 ![Metrics Overview Placeholder](./images/metrics_overview_placeholder.png)
 
-*Description*: Include the metrics summary image, providing key performance indicators such as average sales, number of customers, and most purchased categories.
+metrics summary image, providing key performance indicators such as average sales, number of customers, and most purchased categories.
 
 ## Metrics Overview
 
