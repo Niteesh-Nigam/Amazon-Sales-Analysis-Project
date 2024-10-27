@@ -1,9 +1,8 @@
-# Amazon-Sales-Analysis-Project
 # Amazon Sales Analysis Project
 
 ## Project Summary
 
-This project provides a comprehensive analysis of Amazon sales data, utilizing visualizations and insights to understand sales patterns, performance metrics, and customer trends. The analysis was carried out using a combination of data exploration, cleaning, and advanced data visualization techniques.
+This project provides a comprehensive analysis of Amazon sales data, utilizing visualizations and insights to understand sales patterns, performance metrics, and customer trends. The analysis was carried out using a combination of data exploration, cleaning, clustering, and advanced data visualization techniques.
 
 ## Aim
 
@@ -14,36 +13,64 @@ The aim of this project is to extract key insights from Amazon sales data, ident
 1. Introduction
 2. Data Collection and Preprocessing
 3. Exploratory Data Analysis (EDA)
-4. Visualization Results
-5. Metrics Overview
-6. Conclusion and Future Scope
+4. Clustering Analysis (K-Means)
+5. Visualization Results
+6. Metrics Overview
+7. Conclusion and Future Scope
 
-## Instructions to Run the Code
+## Introduction
 
-To replicate this analysis, ensure you have the following installed:
+The "Amazon Sales Analysis" project is a Python-based data analysis endeavor aimed at exploring and understanding sales data obtained from Amazon. The project employs various Python libraries, including NumPy, Pandas, Matplotlib, Seaborn, and Scikit-Learn to analyze and visualize the dataset.
 
-- Jupyter Notebook
-- Python 3.x
-- Required Python libraries listed in `requirements.txt`
+## Data Collection and Preprocessing
 
-Steps:
+### Data Loading and Inspection
 
-1. Clone the repository.
-2. Install dependencies using:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebook file named `FINALAmazon_Sales_Analysis_FINALFINAL.ipynb`.
+The first step involves loading the sales data from a CSV file using Pandas. The dataset contains 128,976 entries with 21 columns, including information such as Order ID, Date, Status, Sales Channel, Quantity, Amount, and more. Initial inspection using methods like `head()`, `info()`, and `shape` provides a quick overview of the data structure.
 
-## Model Architectures & Key Characteristics
+### Data Cleaning
 
-The analysis included several key data processing and visualization tasks:
+The dataset undergoes cleaning processes to enhance its usability. Unrelated or blank columns, such as 'New' and 'PendingS', are dropped. Null values are handled by dropping rows or filling in missing information. Data types are adjusted, ensuring consistency, and columns like 'Date' are converted to datetime objects for better analysis.
 
-- Data Cleaning: Removed missing and outlier data to ensure reliability.
-- Data Visualization: Created various types of plots to showcase key sales trends.
+## Exploratory Data Analysis (EDA)
 
-The visualizations include:
-- Sales trends over time, top-selling products, customer segmentation, etc.
+### 1. Size Analysis
+The distribution of purchases based on size is explored using count plots, revealing that M-Size is the most popular among buyers.
+
+### 2. Grouping by Size
+Grouping the data by size allows for a deeper understanding of the quantity of products sold for each size. The analysis confirms that M-Size products dominate sales.
+
+### 3. Courier Status and Order Status
+Analyzing the shipping methods and order statuses through count plots indicates that the majority of orders are shipped through couriers.
+
+### 4. Category Distribution
+A histogram is used to visualize the distribution of purchases across different product categories, highlighting that T-shirts are the most frequently bought items.
+
+### 5. B2B Analysis
+The project includes a pie chart to showcase the distribution of Business-to-Business (B2B) and retailer buyers, indicating that 99.3% of buyers are retailers.
+
+### 6. Fulfilment Analysis
+A pie chart illustrates the distribution of fulfilment methods, with Amazon being the primary fulfilment service.
+
+### 7. Scatter Plot and State-wise Distribution
+Scatter plots are used to explore relationships between product categories and sizes. Additionally, state-wise distribution plots provide insights into the geographical concentration of buyers, with Maharashtra having the highest number of customers.
+
+## Clustering Analysis (K-Means)
+
+### K-Means Clustering
+To further understand customer behavior, a K-Means clustering algorithm was applied to segment customers based on their purchasing patterns. The optimal number of clusters was determined using the Elbow Method, which revealed that 3 clusters provided the best representation of the data.
+
+- **Cluster 1**: Represents frequent buyers with high-value purchases.
+- **Cluster 2**: Represents average buyers with moderate purchasing frequency.
+- **Cluster 3**: Represents infrequent buyers with low-value purchases.
+
+The clustering results provide valuable insights into different customer segments, which can be used for targeted marketing strategies.
+
+### Visualization of Clusters
+
+![K-Means Clustering Placeholder](./images/k_means_clustering_placeholder.png)
+
+*Description*: Include the image depicting K-Means clustering results here. This visualization helps identify different customer groups based on their purchasing behavior.
 
 ## Visualization Results
 
@@ -96,10 +123,11 @@ The analysis uncovered several critical insights:
 - **Top Categories**: Product categories that dominate sales are highlighted.
 - **Customer Behavior**: Identification of customer groups that are more likely to purchase during promotional periods.
 - **Seasonal Trends**: Seasonal spikes in sales, which could be aligned with holidays or major promotional campaigns.
+- **Customer Segments**: K-Means clustering identified distinct customer segments that can be targeted for personalized marketing.
 
 ## Conclusion & Future Scope
 
-The project successfully identified patterns in sales data, customer segments, and seasonality. Future work could involve predictive modeling for future sales forecasting and more granular customer behavior analysis to refine marketing strategies.
+The Amazon Sales Analysis project provides valuable insights into customer preferences, popular product categories, geographic distribution, and customer segmentation. This information can be leveraged by the business to make informed decisions, optimize inventory, and enhance customer satisfaction. Future work could involve predictive modeling for future sales forecasting, more granular customer behavior analysis, and tailored marketing campaigns based on customer segments.
 
 ## Images
 
@@ -108,4 +136,3 @@ All images extracted from the notebook are placeholders here; you need to replac
 ## Contact
 
 For further questions, please feel free to reach out at niteesh.nigam99@gmail.com.
-
